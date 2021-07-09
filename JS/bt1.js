@@ -26,7 +26,7 @@ function xacNhan() {
         diemTongKet = parseInt(diemToan) + parseInt(diemLy) + parseInt(diemHoa) + parseInt(diemKV)+ parseInt(diemDT);
         if (diemTongKet < diemChuan ){
             
-            pThongBao.innerHTML = "Bạn không đậu. Chúc may mắn lần sau :3 ";
+            pThongBao.innerHTML = "Bạn không đậu. Chúc may mắn lần sau!!! ";
         }else{
             
             pThongBao.innerHTML = "Bạn đã đậu với số điểm: " + diemTongKet + " điểm";
